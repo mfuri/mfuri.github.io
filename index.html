@@ -1,7 +1,17 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <link rel="import" href="header.html">
-</head>
+   <head>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script>
+         $(document).ready(function(){
+            $('#header').load("header.html");
+            $('#footer').load("footer.html");
+         });
+      </script>
+   </head>
+   <body>
+      <div id="header"></div>
+      your content........
+      <div id="footer"></div>
+   </body>
 </html>
