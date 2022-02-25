@@ -1,12 +1,5 @@
 <!DOCTYPE html>
 <html>
-    <script>
-        window.localStorage.setItem('Home', '');
-        window.localStorage.setItem('WorkExperience', '');
-        window.localStorage.setItem('Skills', '');
-        window.localStorage.setItem('About', '');
-        window.localStorage.setItem('Bio', '');
-    </script>
 
 <head>
     
@@ -69,13 +62,15 @@
     </style>
 </head>
 <body>
+
     <script>
-        var home = window.localStorage.getItem('Home');
+         var home = window.localStorage.getItem('Home');
+         var workexperience = window.localStorage.getItem('WorkExperience');
+         window.localStorage.setItem('Skills', '');
+         window.localStorage.setItem('About', '');
+         window.localStorage.setItem('Bio', '');
         alert(home);
-        console.log('Hello World');
-        console.log(home);
-    </script>
-    
+     </script>
 
 <div class="header">
     <a class="" href="bio.php" class="logo">Michael Tafuri</a>
